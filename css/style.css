@@ -1,0 +1,177 @@
+:root {
+    --vermelho: #E50914;
+    --preto: #141414;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*Elementos Base*/
+
+body {
+    background: var(--preto);
+    font-family: 'Arial', Times, serif;
+    color: white;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    /*Row é o valor padrão da propriedade quando o display é declarado como flex*/
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+    margin-left: 5px;
+}
+
+header nav a {
+    color: #AAAAAA;
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: #FFFFFF;
+}
+
+.container {
+    margin-left: 20px;
+}
+
+
+/*Filme Principal*/
+
+.filme-principal {
+    font-size: 16px;
+    background-size: cover;
+    height: 28rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.capaBreakingBad {
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)), url(../images/capas/capaBreakingBad.jpg);
+}
+
+.capaGreysAnatomy {
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)), url(../images/capas/capaGreysAnatomy.jpg);
+}
+
+.capaArmyDead {
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)), url(../images/capas/capaArmyDead.jpg);
+}
+
+.capaSweetTooth {
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)), url(../images/capas/capaSweetTooth.jpg);
+}
+
+.capaQuemMatouSara {
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)), url(../images/capas/capaQuemMatouSara.jpg);
+}
+
+.capaRiverdale {
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)), url(../images/capas/capaRiverdale.jpg);
+}
+
+.capaPeakyBlinders {
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)), url(../images/capas/capaPeakyBlinders.jpg);
+}
+
+.capaOrangeBlack {
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)), url(../images/capas/capaOrangeBlack.jpg);
+}
+
+.filme-principal .titulo {
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    margin-top: 15%;
+}
+
+.filme-principal .sinopse {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-size: 17px;
+}
+
+.filme-principal .container {
+    width: 70%;
+}
+
+.botao {
+    background-color: rgba(0, 0, 0, .50);
+    border: none;
+    color: #FFF;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.botao i {
+    margin-right: 8px;
+}
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-filmes {
+    margin-top: 9px;
+}
+
+footer .container {
+    margin: 0 auto;
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+/*RESPONSIVIDADE*/
+
+@media screen and (max-width: 700px) {
+    header .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    header nav a {
+        font-size: 18px;
+        margin: 0 5px;
+    }
+    .botao {
+        margin-top: 5px;
+        width: 190px;
+        padding: 15px 20px;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    .sinopse {
+        width: 50%;
+    }
+}
