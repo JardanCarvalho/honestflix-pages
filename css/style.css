@@ -55,7 +55,6 @@ header nav a:hover {
 
 .filme-principal {
     font-size: 16px;
-    background-size: cover;
     height: 28rem;
     display: flex;
     flex-direction: column;
@@ -65,34 +64,42 @@ header nav a:hover {
 
 .capaBreakingBad {
     background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)), url(../images/capas/capaBreakingBad.jpg);
+    background-size: cover;
 }
 
 .capaGreysAnatomy {
     background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)), url(../images/capas/capaGreysAnatomy.jpg);
+    background-size: cover;
 }
 
 .capaArmyDead {
     background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)), url(../images/capas/capaArmyDead.jpg);
+    background-size: cover;
 }
 
 .capaSweetTooth {
     background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)), url(../images/capas/capaSweetTooth.jpg);
+    background-size: cover;
 }
 
 .capaQuemMatouSara {
     background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)), url(../images/capas/capaQuemMatouSara.jpg);
+    background-size: cover;
 }
 
 .capaRiverdale {
     background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)), url(../images/capas/capaRiverdale.jpg);
+    background-size: cover;
 }
 
 .capaPeakyBlinders {
     background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)), url(../images/capas/capaPeakyBlinders.jpg);
+    background-size: cover;
 }
 
 .capaOrangeBlack {
     background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)), url(../images/capas/capaOrangeBlack.jpg);
+    background-size: cover;
 }
 
 .filme-principal .titulo {

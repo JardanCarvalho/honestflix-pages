@@ -6,4 +6,4 @@ Esse projeto faz parte da aula "Recriando a Interface da Netflix" da Digital Inn
 
 
 
-Link: 
+Link:  https://jardancarvalho.github.io/honestflix-pages/index.html
